@@ -1,0 +1,117 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+main {
+  font-size: 12pt;
+  color: #3d414c;
+}
+
+.search-block {
+  position: relative;
+  background-color: white;
+  padding: 20px 20px 0 20px;
+  .search-bar {
+    i {
+      font-size: 40px;
+      width: 40px;
+      height: 40px;
+    }
+    input {
+      box-sizing: border-box;
+      display: inline-block;
+      margin-left: 20px;
+      border: 1px solid #dedede;
+      height: 44px;
+      width: 740px;
+      border-radius: 25px;
+      padding:2px 25px;
+      color: #272B38;
+      font-size: 14px;
+    }
+  }
+  .search-recommend {
+    margin: 15px 0 5px 0;
+    padding: 0;
+    position: relative;
+    left: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 740px;
+    li {
+      list-style: none;
+      display: block;
+      background-color: #f2f2f2;
+      color: #434d5e;
+      font-size: 12pt;
+      padding: 5px 15px;
+      margin-right: 20px;
+      margin-bottom: 10px;
+      border-radius: 15px;
+      &:hover {
+        background-color: #37d3af;
+        color: #ffffff;
+        cursor: pointer;
+      }
+    }
+  }
+}
+.content-block {
+  padding: 20px;
+  background-color: #f2f2f2;
+  display: flex;
+  .main-block {
+    flex: 1 1 800px;
+    margin-right: 10px;
+    .item-header {
+      display: flex;
+      align-items: flex-start;
+      .label-q {
+        display: block;
+        box-sizing: border-box;
+        background-color: #f7a20b;
+        border-radius: 2px;
+        font-size: 14px;
+        color: #fff;
+        padding: 5px;
+        flex: 0 0 38px;
+      }
+      h3 {
+        margin: 0 10px;
+        font-size: 12pt;
+      }
+    }
+    .item-content {
+      margin-top: 10px;
+      display: flex;
+      align-items: flex-start;
+      .label-a {
+        display: block;
+        box-sizing: border-box;
+        background-color: #a9cd39;
+        border-radius: 2px;
+        font-size: 14px;
+        color: #fff;
+        padding: 5px;
+        flex: 0 0 38px;
+      }
+      p {
+        margin: 0 10px;
+      }
+    }
+  }
+  .slider-block {
+    flex: 1 1 390px;
+  }
+  .section-title {
+    margin: 0 0 10px 0;
+    font-size: 14pt;
+    color: #3d414c;
+  }
+  .section-content {
+    background-color: #fff;
+    border-radius: 4px; 
+    padding: 20px;
+  }
+}

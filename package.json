@@ -1,0 +1,22 @@
+{
+  "name": "knowlege",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch assets/styles/main.scss assets/styles/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@jackie:jackie1120/knowlege.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.1",
+    "sass": "^1.22.12"
+  }
+}
