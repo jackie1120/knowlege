@@ -177,6 +177,9 @@ main {
                 display: inline-block;
                 margin-left: 5px;
                 color: #868686;
+                &.active {
+                  color: #70b913;
+                }
               }
               &:nth-child(1) {
                 margin-right: auto;
