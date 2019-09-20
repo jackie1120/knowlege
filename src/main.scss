@@ -41,6 +41,9 @@ main {
         padding:2px 50px;
         color: #272B38;
         font-size: 14pt;
+        &:focus {
+          outline:none;
+        }
       }
     }
     .search-recommend {
