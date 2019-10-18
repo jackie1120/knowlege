@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.page-index {
+  margin: 0;
+  padding: 0;
+  ul {
+    margin: 260px 0 0 0;
+    padding: 0 70px;
+    display: flex;
+    justify-content: space-between;
+    li {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      cursor: pointer;
+      a {
+        display: flex;
+        flex-direction: column;
+        span {
+          display: block;
+          text-align: center;
+          background-color: #f2f2f2;
+          border-radius: 4px;
+          color: #282828;
+          font-size: 16pt;
+          font-weight: bold;
+          line-height: 44px;
+        }
+        img {
+          width: 300px;
+          height: 195px;
+        }
+        &:hover {
+          span {
+            background-color: #70b913;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+}
